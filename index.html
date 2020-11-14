@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title> Welcome! </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script src="function.js"></script>
+    </head>
+
+    <body id="b">
+        <center>
+        <h1 id="head"> Maths Quiz </h1>
+        <center>
+        <div id="main">
+        <div class = "col-lg-4 col-sm-8 xs-11 login_div1">
+            <h3> Player-1 Login For The Game </h3>
+            <label> Username </label>
+            <input type="text" placeholder = "Player1 Username" id="player1" class = "form-control" style = "width:250px;">
+        </div>
+        <br>
+        <br>
+        <div class = "col-lg-4 col-sm-8 xs-11 login_div2">
+            <h3> Player-2 Login For The Game </h3>
+            <label> Username </label>
+            <input type="text" placeholder = "Player2 Username" id="player2" class = "form-control">
+        </div>
+        </div>
+        </center>
+        <br>
+        <br>
+        <button style = "width:30%; height:50px; background-color : gold; color:brown;" onclick="AddUser()" id="button"> Login </button>
+        </center>
+        <center>
+            <br>
+            <br>
+            <div class="image-section">
+                <div class="first-image">
+                    <button id="d" onclick="img()">1 Direction Theme </button> 
+                </div>
+                <br>
+                <br>
+                <div class="first-image">
+                   <button id="hp" onclick="image()"> Harry Potter Theme </button>
+                </div>
+            </div>
+        </center>
+
+    </body>
+</html>

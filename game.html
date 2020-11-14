@@ -1,0 +1,57 @@
+<html>
+<head>
+        <title> Maths Quiz </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body id="b1">
+        <h4 id="player1_name" style = "color:black; text-align:left"></h4><span id="player1_score"></span>
+        <br><br>
+        <h4 id="player2_name" style = "color:black; text-align:left;"></h4><span id="player2_score"></span>
+        
+        <center>
+          
+<div class="container">
+<h2 style="color: black;">Guess The Answer!</h2>
+<h3 id="question" style = "color:white;"></h3>
+<h3 id="answer" style = "color:white;"></h3>
+<div id="output" class="col-lg-6">
+    <h3 id="display"></h3>
+</div>
+		<br>
+        <br>
+        
+        <div id="colour">
+            <br>
+          <button class="btn1" onclick="Add()"> Addition </button>
+          <br>
+          <br>
+          <button class="btn2" onclick="Sub()"> Subtract </button>
+          <br>
+          <br>
+          <button class="btn3" onclick="Multiplication()"> Multiplication </button>
+          <br>
+          <br>
+          <button class="btn4" onclick="Division()"> Division </button>
+          <br>
+          <br>
+          </div>
+
+		<label>Send You Word: <b class = "btn btn-info"> Add a number to be added, subtracted, multiplied or divided.</b></label>
+        <input id="no1" type="number" class="form-control" placeholder="Enter First Number">
+        <br>
+        <br>
+        <input id="no2" type="number" class="form-control" placeholder="Enter Second Number">
+        <br>
+        <br>
+        
+  
+</div>
+
+        </center>
+    </body>
+    <script src="quiz_login.js"></script>
+</html>
